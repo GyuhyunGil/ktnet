@@ -2,7 +2,7 @@
 set -euo pipefail
 
 # 패키지가 위치한 디렉토리
-PKG_DIR="/root/redis/redis8_offline"
+PKG_DIR="/mnt/usb/redis8.0.3"
 
 echo "==== [1] Checking offline package directory ===="
 if [[ ! -d "$PKG_DIR" ]]; then
